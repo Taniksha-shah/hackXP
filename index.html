@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Quality Analysis Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Soil Quality Analysis Tool</h1>
+        <form id="soil-form">
+            <label for="ph">Soil pH:</label>
+            <input type="number" id="ph" name="ph" step="0.1" required>
+
+            <label for="moisture">Soil Moisture (%):</label>
+            <input type="number" id="moisture" name="moisture" step="0.1" required>
+
+            <label for="nitrogen">Nitrogen Content (ppm):</label>
+            <input type="number" id="nitrogen" name="nitrogen" step="0.1" required>
+
+            <label for="phosphorus">Phosphorus Content (ppm):</label>
+            <input type="number" id="phosphorus" name="phosphorus" step="0.1" required>
+
+            <label for="potassium">Potassium Content (ppm):</label>
+            <input type="number" id="potassium" name="potassium" step="0.1" required>
+
+            <button type="button" onclick="analyzeSoil()">Analyze</button>
+        </form>
+        <div id="results">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
