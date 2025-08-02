@@ -106,7 +106,7 @@ MIT License
 
 ## 📬 Contact
 
-Developed by **\[Your Name]**
+Developed by **Taniksha**
 📧 Email: [tanikshasha2409@gmail.com](mailto:tanikshashah2409@gmail.com)
 🔗 GitHub: [@Taniksha-shah](https://github.com/Taniksha-shah)
 
